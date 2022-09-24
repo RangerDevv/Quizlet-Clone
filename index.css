@@ -20,6 +20,13 @@ nav {
     justify-content: center;
 }
 
+@media screen and (max-width: 600px) {
+    #card {
+        width: 65%;
+        height: 250px;
+    }
+}
+
 .CardHolder {
     display: flex;
     flex-direction: row;
@@ -39,4 +46,20 @@ nav {
     font-size: x-large;
     color: #FFFF;
     display: none;
+}
+
+#Next {
+    background: #C7F9CC;
+    border-style: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+}
+
+#Prev {
+    background: #C7F9CC;
+    border-style: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
 }
