@@ -38,6 +38,7 @@ Next.onclick = function(){
         CurrCard = 0;
     }
     console.log(CurrCard)
+    flipped = false
 }
 
 Prev.onclick = function(){
@@ -45,6 +46,7 @@ Prev.onclick = function(){
     if (CurrCard < 0) {
         CurrCard = 0;
     }
+    flipped = false
 }
 
 setInterval(() => {
