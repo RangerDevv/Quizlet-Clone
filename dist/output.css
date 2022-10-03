@@ -1665,6 +1665,12 @@ html {
   --tw-backdrop-sepia:  ;
 }
 
+.avatar.placeholder > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .btn {
   display: inline-flex;
   flex-shrink: 0;
@@ -2005,6 +2011,26 @@ html {
   margin-top: 2rem;
 }
 
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.mr-20 {
+  margin-right: 5rem;
+}
+
+.mr-36 {
+  margin-right: 9rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .flex {
   display: flex;
 }
@@ -2013,24 +2039,36 @@ html {
   height: 3rem;
 }
 
-.w-screen {
-  width: 100vw;
+.h-96 {
+  height: 24rem;
 }
 
-.w-80 {
-  width: 20rem;
+.h-80 {
+  height: 20rem;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
+.h-7 {
+  height: 1.75rem;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .w-96 {
   width: 24rem;
 }
 
-.w-24 {
-  width: 6rem;
-}
-
 .w-36 {
   width: 9rem;
+}
+
+.w-80 {
+  width: 20rem;
 }
 
 .flex-row {
@@ -2041,16 +2079,16 @@ html {
   flex-direction: column;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-end {
   justify-content: flex-end;
 }
 
 .justify-center {
   justify-content: center;
-}
-
-.gap-y-10 {
-  row-gap: 2.5rem;
 }
 
 .gap-y-5 {
@@ -2065,6 +2103,19 @@ html {
 .bg-gray-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
+.bg-slate-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-center {
@@ -2086,34 +2137,13 @@ html {
   line-height: 1;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
-.leading-8 {
-  line-height: 2rem;
-}
-
-.leading-10 {
-  line-height: 2.5rem;
-}
-
-.leading-loose {
-  line-height: 2;
-}
-
-.leading-snug {
-  line-height: 1.375;
-}
-
-.leading-relaxed {
-  line-height: 1.625;
+.font-semibold {
+  font-weight: 600;
 }
 
 .leading-tight {
@@ -2133,20 +2163,8 @@ html {
   text-decoration-color: #0ea5e9;
 }
 
-.decoration-wavy {
-  text-decoration-style: wavy;
-}
-
-.decoration-2 {
-  text-decoration-thickness: 2px;
-}
-
 .decoration-4 {
   text-decoration-thickness: 4px;
-}
-
-.underline-offset-1 {
-  text-underline-offset: 1px;
 }
 
 .underline-offset-4 {
@@ -2155,4 +2173,40 @@ html {
 
 .hover\:mt-1:hover {
   margin-top: 0.25rem;
+}
+
+@media (min-width: 640px) {
+  .sm\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .sm\:justify-center {
+    justify-content: center;
+  }
+
+  .sm\:text-center {
+    text-align: center;
+  }
+
+  .sm\:text-start {
+    text-align: start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mr-36 {
+    margin-right: 9rem;
+  }
+
+  .lg\:ml-10 {
+    margin-left: 2.5rem;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:text-start {
+    text-align: start;
+  }
 }
