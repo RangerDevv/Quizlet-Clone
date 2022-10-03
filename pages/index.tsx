@@ -12,6 +12,12 @@ const Home: NextPage = () => {
         <p className=' text-2xl text-white ml-5 mt-2 hover:mt-1'>Sign Up</p>
         </div>
       </nav>
+      <header className=' w-screen flex flex-col justify-center gap-y-5'>
+        <div className=' flex justify-center'>
+        <p className=' text-5xl text-white text-center mt-8 w-96 leading-tight '>Work <u className=' underline decoration-4 decoration-sky-500 underline-offset-4'>Smarter</u>, Not Harder</p>
+        </div>
+        <p className=' text-xl text-center text-white'>With tau, you can study faster, and smarter.</p>
+      </header>
     </div>
   )
 }
