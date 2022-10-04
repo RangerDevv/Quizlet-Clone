@@ -25,27 +25,27 @@ const Home: NextPage = () => {
       {/* body */}
       <div className=' flex flex-col gap-28 mt-28'>
         <div className=' flex justify-center lg:flex-row flex-col '>
-          <div className=' flex flex-col justify-start w-screen lg:ml-10'>
-            <p className=' text-white text-center lg:text-start text-2xl font-semibold'>Title Goes Here</p>
-            <p className=' text-white text-center lg:text-start text-xl'>Description goes here.</p>
+          <div className=' flex flex-col justify-start w-screen lg:ml-10 gap-y-5'>
+            <p className=' text-white text-center lg:text-start text-2xl font-semibold'>Memorize faster with flashcards. </p>
+            <p className=' text-white text-center lg:text-start text-xl w-96'>Memorize faster, and more effeciently with flashcards.</p>
           </div>
           <div className='flex sm:justify-end w-80 h-56 bg-slate-200 lg:mr-28'>
             <img></img>
           </div>
         </div>
         <div className=' flex justify-center lg:flex-row flex-col '>
-          <div className=' flex flex-col justify-start w-screen lg:ml-10'>
-            <p className=' text-white text-center lg:text-start text-2xl font-semibold'>Title Goes Here</p>
-            <p className=' text-white text-center lg:text-start text-xl'>Description goes here.</p>
+          <div className=' flex flex-col justify-start w-screen lg:ml-10 gap-y-5'>
+            <p className=' text-white text-center lg:text-start text-2xl font-semibold'>Quiz yourself on what you have learnt.</p>
+            <p className=' text-white text-center lg:text-start text-xl w-96'>Turn your flashcards into a way to test yourself on what you have learnt.</p>
           </div>
           <div className='flex sm:justify-end w-80 h-56 bg-slate-200 lg:mr-28'>
             <img></img>
           </div>
         </div>
         <div className=' flex justify-center lg:flex-row flex-col '>
-          <div className=' flex flex-col justify-start w-screen lg:ml-10'>
-            <p className=' text-white text-center lg:text-start text-2xl font-semibold'>Title Goes Here</p>
-            <p className=' text-white text-center lg:text-start text-xl'>Description goes here.</p>
+          <div className=' flex flex-col justify-start w-screen lg:ml-10 gap-y-5'>
+            <p className=' text-white text-center lg:text-start text-2xl font-semibold'>Learn anywvere, anytime, for free.</p>
+            <p className=' text-white text-center lg:text-start text-xl w-96'>Our website supports both desktop and mobile, study anywhere, anytime. Free for everyone forever.</p>
           </div>
           <div className='flex sm:justify-end w-80 h-56 bg-slate-200 lg:mr-28'>
             <img></img>

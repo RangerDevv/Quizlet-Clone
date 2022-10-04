@@ -1989,10 +1989,6 @@ html {
   margin-left: 1.25rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -2001,16 +1997,12 @@ html {
   margin-right: 1.25rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
-.mt-14 {
-  margin-top: 3.5rem;
 }
 
 .mt-28 {
@@ -2023,14 +2015,6 @@ html {
 
 .h-12 {
   height: 3rem;
-}
-
-.h-80 {
-  height: 20rem;
-}
-
-.h-72 {
-  height: 18rem;
 }
 
 .h-56 {
@@ -2073,10 +2057,6 @@ html {
   justify-content: center;
 }
 
-.gap-32 {
-  gap: 8rem;
-}
-
 .gap-28 {
   gap: 7rem;
 }
@@ -2085,23 +2065,18 @@ html {
   row-gap: 1.25rem;
 }
 
-.gap-y-14 {
-  row-gap: 3.5rem;
-}
-
-.bg-slate-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
-}
-
-.bg-gray-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+.gap-y-6 {
+  row-gap: 1.5rem;
 }
 
 .bg-gray-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+.bg-gray-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
 .bg-slate-200 {
@@ -2111,19 +2086,6 @@ html {
 
 .text-center {
   text-align: center;
-}
-
-.text-end {
-  text-align: end;
-}
-
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .text-3xl {
@@ -2139,6 +2101,11 @@ html {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-semibold {
@@ -2183,10 +2150,6 @@ html {
 @media (min-width: 1024px) {
   .lg\:ml-10 {
     margin-left: 2.5rem;
-  }
-
-  .lg\:mr-36 {
-    margin-right: 9rem;
   }
 
   .lg\:mr-28 {
