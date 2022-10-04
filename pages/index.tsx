@@ -22,15 +22,36 @@ const Home: NextPage = () => {
         <button className=' btn w-36 btn-success'>Get Started →</button>
         </div>
       </header>
-      <div className=' flex justify-center lg:flex-row flex-col '>
-        <div className=' flex flex-col justify-start w-screen lg:ml-10'>
-          <p className=' text-white text-center lg:text-start text-2xl font-semibold'>Title Goes Here</p>
-          <p className=' text-white text-center lg:text-start text-xl'>Description goes here.</p>
+      {/* body */}
+      <div className=' flex flex-col gap-28 mt-28'>
+        <div className=' flex justify-center lg:flex-row flex-col '>
+          <div className=' flex flex-col justify-start w-screen lg:ml-10'>
+            <p className=' text-white text-center lg:text-start text-2xl font-semibold'>Title Goes Here</p>
+            <p className=' text-white text-center lg:text-start text-xl'>Description goes here.</p>
+          </div>
+          <div className='flex sm:justify-end w-80 h-56 bg-slate-200 lg:mr-28'>
+            <img></img>
+          </div>
         </div>
-        <div className='flex sm:justify-end w-80 h-80 bg-slate-200 lg:mr-36'>
-          <img></img>
+        <div className=' flex justify-center lg:flex-row flex-col '>
+          <div className=' flex flex-col justify-start w-screen lg:ml-10'>
+            <p className=' text-white text-center lg:text-start text-2xl font-semibold'>Title Goes Here</p>
+            <p className=' text-white text-center lg:text-start text-xl'>Description goes here.</p>
+          </div>
+          <div className='flex sm:justify-end w-80 h-56 bg-slate-200 lg:mr-28'>
+            <img></img>
+          </div>
         </div>
-      </div>
+        <div className=' flex justify-center lg:flex-row flex-col '>
+          <div className=' flex flex-col justify-start w-screen lg:ml-10'>
+            <p className=' text-white text-center lg:text-start text-2xl font-semibold'>Title Goes Here</p>
+            <p className=' text-white text-center lg:text-start text-xl'>Description goes here.</p>
+          </div>
+          <div className='flex sm:justify-end w-80 h-56 bg-slate-200 lg:mr-28'>
+            <img></img>
+          </div>
+        </div>
+        </div>
     </div>
   )
 }

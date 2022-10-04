@@ -1665,12 +1665,6 @@ html {
   --tw-backdrop-sepia:  ;
 }
 
-.avatar.placeholder > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .btn {
   display: inline-flex;
   flex-shrink: 0;
@@ -1995,6 +1989,10 @@ html {
   margin-left: 1.25rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -2003,32 +2001,20 @@ html {
   margin-right: 1.25rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mt-8 {
   margin-top: 2rem;
 }
 
-.ml-10 {
-  margin-left: 2.5rem;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
-.mr-10 {
-  margin-right: 2.5rem;
+.mt-14 {
+  margin-top: 3.5rem;
 }
 
-.mr-20 {
-  margin-right: 5rem;
-}
-
-.mr-36 {
-  margin-right: 9rem;
-}
-
-.mt-12 {
-  margin-top: 3rem;
+.mt-28 {
+  margin-top: 7rem;
 }
 
 .flex {
@@ -2039,20 +2025,16 @@ html {
   height: 3rem;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
 .h-80 {
   height: 20rem;
 }
 
-.h-40 {
-  height: 10rem;
+.h-72 {
+  height: 18rem;
 }
 
-.h-7 {
-  height: 1.75rem;
+.h-56 {
+  height: 14rem;
 }
 
 .w-screen {
@@ -2091,13 +2073,25 @@ html {
   justify-content: center;
 }
 
+.gap-32 {
+  gap: 8rem;
+}
+
+.gap-28 {
+  gap: 7rem;
+}
+
 .gap-y-5 {
   row-gap: 1.25rem;
 }
 
-.bg-gray-900 {
+.gap-y-14 {
+  row-gap: 3.5rem;
+}
+
+.bg-slate-800 {
   --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
 .bg-gray-700 {
@@ -2105,21 +2099,31 @@ html {
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
+.bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
-.pt-1 {
-  padding-top: 0.25rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
 .text-center {
   text-align: center;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-3xl {
@@ -2135,11 +2139,6 @@ html {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .font-semibold {
@@ -2179,27 +2178,19 @@ html {
   .sm\:justify-end {
     justify-content: flex-end;
   }
-
-  .sm\:justify-center {
-    justify-content: center;
-  }
-
-  .sm\:text-center {
-    text-align: center;
-  }
-
-  .sm\:text-start {
-    text-align: start;
-  }
 }
 
 @media (min-width: 1024px) {
+  .lg\:ml-10 {
+    margin-left: 2.5rem;
+  }
+
   .lg\:mr-36 {
     margin-right: 9rem;
   }
 
-  .lg\:ml-10 {
-    margin-left: 2.5rem;
+  .lg\:mr-28 {
+    margin-right: 7rem;
   }
 
   .lg\:flex-row {
