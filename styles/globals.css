@@ -22,4 +22,7 @@ a {
   .Body{
     background: #01161E;
   }
+  #quote{
+    width: 80%;
+  }
 }
