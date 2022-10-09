@@ -15,9 +15,9 @@ const Home: NextPage = () => {
       {/* Navbar */}
       <header className=' w-screen flex flex-col justify-center gap-y-5'>
         <div className=' flex justify-center'>
-        <p className=' text-5xl text-white text-center mt-8 w-96 leading-tight '><strong>Work <u className=' underline decoration-4 decoration-sky-500 underline-offset-4'>Smarter</u>, Not Harder</strong></p>
+        <p className=' 4xl:text-6xl text-5xl text-white text-center mt-8 w-96 leading-tight '><strong>Work <u className=' underline decoration-4 decoration-sky-500 underline-offset-4'>Smarter</u>, Not Harder</strong></p>
         </div>
-        <p className=' text-xl text-center text-white'>With tau, you can study faster, and smarter.</p>
+        <p className=' text-2xl text-center text-white'>With tau, you can study faster, and smarter.</p>
         <div className=' flex justify-center'>
         <button className=' btn w-36 btn-success'>Get Started →</button>
         </div>
@@ -25,11 +25,11 @@ const Home: NextPage = () => {
       {/* body */}
       <div className=' flex flex-col gap-28 mt-28'>
         <div className=' flex justify-center lg:flex-row flex-col '>
-          <div className=' flex flex-col justify-start w-screen md:ml-10 2xl:ml-28 gap-y-5 4xl:ml-[40rem]'>
-            <p className=' text-white text-center lg:text-start sm:text-2xl 2xl:text-4xl font-semibold 4xl:text-[3.5rem]'>Memorize faster with flashcards. </p>
-            <p className=' text-white text-center lg:text-start text-xl 2xl:text-2xl w-96 4xl:w-[44rem] 4xl:text-[2rem] 4xl:leading-normal'>Memorize faster, and more effeciently with flashcards.</p>
+          <div className=' flex flex-col justify-start w-screen md:ml-10 2xl:ml-28 gap-y-5 4xl:ml-[25rem]'>
+            <p className=' text-white text-center lg:text-start sm:text-2xl font-semibold  4xl:text-[2.5rem]'>Memorize faster with flashcards. </p>
+            <p className=' text-white text-center lg:text-start text-xl 2xl:text-2xl w-96 4xl:w-[34rem] 4xl:text-[1.7rem] 4xl:leading-normal'>Memorize faster, and more effeciently with flashcards.</p>
           </div>
-          <div className='flex sm:justify-end w-80 h-56 md:mr-28 4xl:mr-[40rem]'>
+          <div className='flex sm:justify-end w-80 h-56 md:mr-28 4xl:mr-[25rem]'>
             <label className="swap swap-flip text-9xl 2xl:pt-0 pt-8">
               <input type="checkbox" />
               <div className=' w-80 h-56 4xl:w-[35rem] 2xl:h-80 rounded-xl pt-20 text-xl 2xl:text-2xl bg-gray-800 swap-off'>
@@ -45,26 +45,26 @@ const Home: NextPage = () => {
         <p className=' text-center text-white w-screen  text-3xl font-bold' id='quote'>"When used correctly, flash cards allow students to interact with information in a way that makes it<u className=' underline decoration-red-500 decoration-4'> easier to retain.</u> Flash cards are strategically designed to <u className=' underline decoration-sky-500 decoration-4'>enhance</u> and <u className=' underline decoration-sky-500 decoration-4'>encourage</u> active recall."<p><i className=' underline decoration-yellow-500 decoration-4'>-carsondellosa.com</i></p></p>
         </div>
         <div className=' flex justify-center lg:flex-row flex-col '>
-          <div className=' flex flex-col justify-start w-screen md:ml-10 2xl:ml-28 gap-y-5 4xl:ml-[40rem]'>
-            <p className=' text-white text-center lg:text-start sm:text-2xl 2xl:text-4xl font-semibold 4xl:text-[3.5rem]'>Quiz yourself on what you have learnt.</p>
-            <p className=' text-white text-center lg:text-start text-xl 2xl:text-2xl w-96 4xl:w-[44rem] 4xl:text-[2rem] 4xl:leading-normal'>Turn your flashcards into a way to test yourself on what you have learnt.</p>
+          <div className=' flex flex-col justify-start w-screen md:ml-10 2xl:ml-28 gap-y-5 4xl:ml-[25rem]'>
+            <p className=' text-white text-center lg:text-start sm:text-2xl font-semibold  4xl:text-[2.5rem]'>Quiz yourself on what you have learnt.</p>
+            <p className=' text-white text-center lg:text-start text-xl 2xl:text-2xl w-96 4xl:w-[34rem] 4xl:text-[1.7rem] 4xl:leading-normal'>Turn your flashcards into a way to test yourself on what you have learnt.</p>
           </div>
-          <div className=' mr-40'>
-          <div className='card w-96 bg-base-100 shadow-xl rounded-lg h-64'>
+          <div className=' mr-40 4xl:mr-[25rem]'>
+          <div className='card w-96 bg-base-100 shadow-xl rounded-lg h-64 4xl:w-[34rem] 4xl:h-[26rem]'>
             <div className=' card-actions justify-evenly'>
-            <div className=' flex flex-col gap-7 lg:pt-0 pt-8'>
-              <p className=' text-md font-semibold text-white text-center card-title pt-5'>What do tissues combine to form?</p>
+            <div className=' flex flex-col gap-7 '>
+              <p className=' text-md font-semibold text-white text-center pt-5 4xl:text-4xl'>What do tissues combine to form?</p>
               <div className='flex gap-x-2 pl-6'>
-                <input type="radio" name="radio-2" className="radio radio-accent mb-1" />
-                <label className=' text-lg  align-top text-white'>Cell</label>
+                <input type="radio" name="radio-2" className="radio radio-accent mb-1 4xl:w-8 4xl:h-8" />
+                <label className=' text-lg align-top text-white 4xl:text-2xl'>Cell</label>
               </div>
               <div className='flex gap-x-2 pl-6'>
-                <input type="radio" name="radio-2" className="radio radio-accent mb-1" />
-                <label className=' text-lg align-top  text-white'>Organ</label>
+                <input type="radio" name="radio-2" className="radio radio-accent mb-1 4xl:w-8 4xl:h-8" />
+                <label className=' text-lg align-top  text-white 4xl:text-2xl'>Organ</label>
               </div>
               <div className='flex gap-x-2 pl-6'>
-                <input type="radio" name="radio-2" className="radio radio-accent mb-1" />
-                <label className=' text-lg align-top text-white'>Human</label>
+                <input type="radio" name="radio-2" className="radio radio-accent mb-1 4xl:w-8 4xl:h-8" />
+                <label className=' text-lg align-top text-white 4xl:text-2xl'>Human</label>
               </div>
               </div>
             </div>
@@ -72,21 +72,33 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className=' flex justify-center lg:flex-row flex-col '>
-          <div className=' flex flex-col justify-start w-screen md:ml-10 2xl:ml-28 gap-y-5 4xl:ml-[40rem]'>
-            <p className=' text-white text-center lg:text-start sm:text-2xl 2xl:text-4xl font-semibold 4xl:text-[3.5rem]'>Learn anywvere, anytime, for free.</p>
-            <p className=' text-white text-center lg:text-start text-xl 2xl:text-2xl w-96 4xl:w-[44rem] 4xl:text-[2rem] 4xl:leading-normal'>Our website supports both desktop and mobile, study anywhere, anytime. Free for everyone forever.</p>
+          <div className=' flex flex-col justify-start w-screen md:ml-10 2xl:ml-28 gap-y-5 4xl:ml-[25rem]'>
+            <p className=' text-white text-center lg:text-start sm:text-2xl font-semibold  4xl:text-[2.5rem]'>Learn anywvere, anytime, for free.</p>
+            <p className=' text-white text-center lg:text-start text-xl 2xl:text-2xl w-96 4xl:w-[34rem] 4xl:text-[1.7rem] 4xl:leading-normal'>Our website supports both desktop and mobile, study anywhere, anytime. Free for everyone forever.</p>
           </div>
-          <div className='flex sm:justify-end w-80 h-56 lg:mr-28'>
-          <svg width="488" height="335" viewBox="0 0 488 335" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="6" y="6" width="476" height="323" rx="21" fill="#00428F" stroke="#4A4A4A" stroke-width="12"/>
-<rect x="151" y="108" width="186" height="103" rx="14" fill="#124559"/>
-<rect x="194" y="147" width="100" height="6" fill="#D9D9D9"/>
-<rect x="202" y="160" width="84" height="6" fill="#D9D9D9"/>
-<rect x="137" y="46" width="57" height="30" rx="5" fill="#AEC3B0"/>
-<rect x="215" y="46" width="57" height="30" rx="5" fill="#AEC3B0"/>
-<rect x="293" y="46" width="57" height="30" rx="5" fill="#AEC3B0"/>
-</svg>
-
+          <div className='mr-40 4xl:mr-[25rem]'>
+            <div className=' block 4xl:hidden'>
+              <svg width="388" height="235" viewBox="0 0 488 335" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="6" width="476" height="323" rx="21" fill="#00428F" stroke="#4A4A4A" stroke-width="12"/>
+              <rect x="151" y="108" width="186" height="103" rx="14" fill="#124559"/>
+              <rect x="194" y="147" width="100" height="6" fill="#D9D9D9"/>
+              <rect x="202" y="160" width="84" height="6" fill="#D9D9D9"/>
+              <rect x="137" y="46" width="57" height="30" rx="5" fill="#AEC3B0"/>
+              <rect x="215" y="46" width="57" height="30" rx="5" fill="#AEC3B0"/>
+              <rect x="293" y="46" width="57" height="30" rx="5" fill="#AEC3B0"/>
+              </svg>
+            </div>
+            <div className=' 4xl:block hidden'>
+              <svg width="488" height="335" viewBox="0 0 488 335" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="6" width="476" height="323" rx="21" fill="#00428F" stroke="#4A4A4A" stroke-width="12"/>
+              <rect x="151" y="108" width="186" height="103" rx="14" fill="#124559"/>
+              <rect x="194" y="147" width="100" height="6" fill="#D9D9D9"/>
+              <rect x="202" y="160" width="84" height="6" fill="#D9D9D9"/>
+              <rect x="137" y="46" width="57" height="30" rx="5" fill="#AEC3B0"/>
+              <rect x="215" y="46" width="57" height="30" rx="5" fill="#AEC3B0"/>
+              <rect x="293" y="46" width="57" height="30" rx="5" fill="#AEC3B0"/>
+              </svg>
+            </div>
           </div>
         </div>
         </div>

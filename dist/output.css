@@ -2469,10 +2469,6 @@ body[dir="rtl"] .checkbox:checked,
   margin-top: 7rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
 .mr-40 {
   margin-right: 10rem;
 }
@@ -2481,12 +2477,20 @@ body[dir="rtl"] .checkbox:checked,
   margin-bottom: 0.25rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
 
 .grid {
   display: grid;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-12 {
@@ -2499,6 +2503,10 @@ body[dir="rtl"] .checkbox:checked,
 
 .h-64 {
   height: 16rem;
+}
+
+.h-8 {
+  height: 2rem;
 }
 
 .w-screen {
@@ -2515,6 +2523,18 @@ body[dir="rtl"] .checkbox:checked,
 
 .w-80 {
   width: 20rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .grid-flow-col {
@@ -2672,18 +2692,6 @@ body[dir="rtl"] .checkbox:checked,
   line-height: 1.25;
 }
 
-.leading-snug {
-  line-height: 1.375;
-}
-
-.leading-normal {
-  line-height: 1.5;
-}
-
-.leading-loose {
-  line-height: 2;
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -2750,14 +2758,6 @@ body[dir="rtl"] .checkbox:checked,
 }
 
 @media (min-width: 1024px) {
-  .lg\:ml-16 {
-    margin-left: 4rem;
-  }
-
-  .lg\:ml-12 {
-    margin-left: 3rem;
-  }
-
   .lg\:mr-28 {
     margin-right: 7rem;
   }
@@ -2770,10 +2770,6 @@ body[dir="rtl"] .checkbox:checked,
     padding-top: 0px;
   }
 
-  .lg\:pt-14 {
-    padding-top: 3.5rem;
-  }
-
   .lg\:text-start {
     text-align: start;
   }
@@ -2784,52 +2780,86 @@ body[dir="rtl"] .checkbox:checked,
     margin-left: 7rem;
   }
 
-  .\32xl\:mr-56 {
-    margin-right: 14rem;
-  }
-
   .\32xl\:h-80 {
     height: 20rem;
-  }
-
-  .\32xl\:w-\[35rem\] {
-    width: 35rem;
   }
 
   .\32xl\:pt-0 {
     padding-top: 0px;
   }
 
-  .\32xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+  .\32xl\:text-\[1\.5rem\] {
+    font-size: 1.5rem;
   }
 
   .\32xl\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
   }
+
+  .\32xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .\33xl\:text-\[2\.5rem\] {
+    font-size: 2.5rem;
+  }
+
+  .\33xl\:text-\[1\.5rem\] {
+    font-size: 1.5rem;
+  }
+
+  .\33xl\:text-\[2rem\] {
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 2560px) {
-  .\34xl\:mr-\[25rem\] {
-    margin-right: 25rem;
-  }
-
-  .\34xl\:mr-\[60rem\] {
-    margin-right: 60rem;
-  }
-
-  .\34xl\:mr-\[50rem\] {
-    margin-right: 50rem;
+  .\34xl\:ml-\[40rem\] {
+    margin-left: 40rem;
   }
 
   .\34xl\:mr-\[40rem\] {
     margin-right: 40rem;
   }
 
-  .\34xl\:ml-\[40rem\] {
-    margin-left: 40rem;
+  .\34xl\:ml-\[35rem\] {
+    margin-left: 35rem;
+  }
+
+  .\34xl\:ml-\[25rem\] {
+    margin-left: 25rem;
+  }
+
+  .\34xl\:mr-\[25rem\] {
+    margin-right: 25rem;
+  }
+
+  .\34xl\:block {
+    display: block;
+  }
+
+  .\34xl\:hidden {
+    display: none;
+  }
+
+  .\34xl\:h-\[36rem\] {
+    height: 36rem;
+  }
+
+  .\34xl\:h-\[26rem\] {
+    height: 26rem;
+  }
+
+  .\34xl\:h-8 {
+    height: 2rem;
+  }
+
+  .\34xl\:w-\[44rem\] {
+    width: 44rem;
   }
 
   .\34xl\:w-\[35rem\] {
@@ -2840,72 +2870,68 @@ body[dir="rtl"] .checkbox:checked,
     width: 34rem;
   }
 
-  .\34xl\:w-\[44rem\] {
-    width: 44rem;
-  }
-
-  .\34xl\:w-\[64rem\] {
-    width: 64rem;
-  }
-
-  .\34xl\:w-\[54rem\] {
-    width: 54rem;
-  }
-
-  .\34xl\:pt-\[\] {
-    padding-top: ;
-  }
-
-  .\34xl\:pt-\[25rem\] {
-    padding-top: 25rem;
-  }
-
-  .\34xl\:text-\[20rem\] {
-    font-size: 20rem;
-  }
-
-  .\34xl\:text-\[10rem\] {
-    font-size: 10rem;
-  }
-
-  .\34xl\:text-\[5rem\] {
-    font-size: 5rem;
-  }
-
-  .\34xl\:text-\[4rem\] {
-    font-size: 4rem;
-  }
-
-  .\34xl\:text-\[2rem\] {
-    font-size: 2rem;
-  }
-
-  .\34xl\:text-\[3rem\] {
-    font-size: 3rem;
+  .\34xl\:w-8 {
+    width: 2rem;
   }
 
   .\34xl\:text-\[3\.5rem\] {
     font-size: 3.5rem;
   }
 
-  .\34xl\:text-\[1rem\] {
-    font-size: 1rem;
+  .\34xl\:text-\[2rem\] {
+    font-size: 2rem;
   }
 
   .\34xl\:text-\[2\.5rem\] {
     font-size: 2.5rem;
   }
 
-  .\34xl\:text-\[1\.45rem\] {
-    font-size: 1.45rem;
+  .\34xl\:text-\[1\.5rem\] {
+    font-size: 1.5rem;
   }
 
-  .\34xl\:leading-relaxed {
-    line-height: 1.625;
+  .\34xl\:text-\[1\.7rem\] {
+    font-size: 1.7rem;
   }
 
-  .\34xl\:leading-loose {
-    line-height: 2;
+  .\34xl\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
+  }
+
+  .\34xl\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .\34xl\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .\34xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .\34xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .\34xl\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .\34xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .\34xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .\34xl\:leading-normal {
