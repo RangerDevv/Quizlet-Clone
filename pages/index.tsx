@@ -25,17 +25,17 @@ const Home: NextPage = () => {
       {/* body */}
       <div className=' flex flex-col gap-28 mt-28'>
         <div className=' flex justify-center lg:flex-row flex-col '>
-          <div className=' flex flex-col justify-start w-screen lg:ml-10 gap-y-5'>
-            <p className=' text-white text-center lg:text-start text-2xl font-semibold'>Memorize faster with flashcards. </p>
-            <p className=' text-white text-center lg:text-start text-xl w-96'>Memorize faster, and more effeciently with flashcards.</p>
+          <div className=' flex flex-col justify-start w-screen md:ml-10 2xl:ml-28 gap-y-5 4xl:ml-[40rem]'>
+            <p className=' text-white text-center lg:text-start sm:text-2xl 2xl:text-4xl font-semibold 4xl:text-[3.5rem]'>Memorize faster with flashcards. </p>
+            <p className=' text-white text-center lg:text-start text-xl 2xl:text-2xl w-96 4xl:w-[44rem] 4xl:text-[2rem] 4xl:leading-normal'>Memorize faster, and more effeciently with flashcards.</p>
           </div>
-          <div className='flex sm:justify-end w-80 h-56 lg:mr-28'>
-            <label className="swap swap-flip text-9xl lg:pt-0 pt-8">
+          <div className='flex sm:justify-end w-80 h-56 md:mr-28 4xl:mr-[40rem]'>
+            <label className="swap swap-flip text-9xl 2xl:pt-0 pt-8">
               <input type="checkbox" />
-              <div className=' w-80 h-56 rounded-xl pt-20 text-xl bg-gray-800 swap-off'>
-                <p className=' text-white text-center'>What is a tissue?</p>
+              <div className=' w-80 h-56 4xl:w-[35rem] 2xl:h-80 rounded-xl pt-20 text-xl 2xl:text-2xl bg-gray-800 swap-off'>
+                <p className=' text-white text-center 4xl:text-[2.5rem] '>What is a tissue?</p>
               </div>
-              <div className=' w-80 h-56 rounded-xl pt-20 text-xl bg-gray-800 swap-on'>
+              <div className=' w-80 h-56 4xl:w-[35rem] 2xl:h-80 rounded-xl pt-20 text-xl 2xl:text-2xl bg-gray-800 swap-on 4xl:text-[2.5rem] 4xl:leading-normal'>
                 <p className=' text-white text-center'>Tissue is a group of cells that have similar structure and that function together as a unit. </p>
               </div>
             </label>
@@ -45,9 +45,9 @@ const Home: NextPage = () => {
         <p className=' text-center text-white w-screen  text-3xl font-bold' id='quote'>"When used correctly, flash cards allow students to interact with information in a way that makes it<u className=' underline decoration-red-500 decoration-4'> easier to retain.</u> Flash cards are strategically designed to <u className=' underline decoration-sky-500 decoration-4'>enhance</u> and <u className=' underline decoration-sky-500 decoration-4'>encourage</u> active recall."<p><i className=' underline decoration-yellow-500 decoration-4'>-carsondellosa.com</i></p></p>
         </div>
         <div className=' flex justify-center lg:flex-row flex-col '>
-          <div className=' flex flex-col justify-start w-screen lg:ml-16 gap-y-5 mt-6'>
-            <p className=' text-white text-center lg:text-start text-2xl font-semibold'>Quiz yourself on what you have learnt.</p>
-            <p className=' text-white text-center lg:text-start text-xl w-96'>Turn your flashcards into a way to test yourself on what you have learnt.</p>
+          <div className=' flex flex-col justify-start w-screen md:ml-10 2xl:ml-28 gap-y-5 4xl:ml-[40rem]'>
+            <p className=' text-white text-center lg:text-start sm:text-2xl 2xl:text-4xl font-semibold 4xl:text-[3.5rem]'>Quiz yourself on what you have learnt.</p>
+            <p className=' text-white text-center lg:text-start text-xl 2xl:text-2xl w-96 4xl:w-[44rem] 4xl:text-[2rem] 4xl:leading-normal'>Turn your flashcards into a way to test yourself on what you have learnt.</p>
           </div>
           <div className=' mr-40'>
           <div className='card w-96 bg-base-100 shadow-xl rounded-lg h-64'>
@@ -72,9 +72,9 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className=' flex justify-center lg:flex-row flex-col '>
-          <div className=' flex flex-col justify-start w-screen gap-y-5 lg:pt-14 lg:ml-12'>
-            <p className=' text-white text-center lg:text-start text-2xl font-semibold'>Learn anywvere, anytime, for free.</p>
-            <p className=' text-white text-center lg:text-start text-xl w-96'>Our website supports both desktop and mobile, study anywhere, anytime. Free for everyone forever.</p>
+          <div className=' flex flex-col justify-start w-screen md:ml-10 2xl:ml-28 gap-y-5 4xl:ml-[40rem]'>
+            <p className=' text-white text-center lg:text-start sm:text-2xl 2xl:text-4xl font-semibold 4xl:text-[3.5rem]'>Learn anywvere, anytime, for free.</p>
+            <p className=' text-white text-center lg:text-start text-xl 2xl:text-2xl w-96 4xl:w-[44rem] 4xl:text-[2rem] 4xl:leading-normal'>Our website supports both desktop and mobile, study anywhere, anytime. Free for everyone forever.</p>
           </div>
           <div className='flex sm:justify-end w-80 h-56 lg:mr-28'>
           <svg width="488" height="335" viewBox="0 0 488 335" fill="none" xmlns="http://www.w3.org/2000/svg">
