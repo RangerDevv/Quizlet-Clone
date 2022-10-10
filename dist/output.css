@@ -2123,15 +2123,6 @@ html {
   line-height: 1.25rem;
 }
 
-.card-title {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  font-weight: 600;
-}
-
 .checkbox:focus-visible {
   outline: 2px solid hsl(var(--bc));
   outline-offset: 2px;
@@ -2437,14 +2428,6 @@ body[dir="rtl"] .checkbox:checked,
   border-bottom-right-radius: var(--rounded-btn, 0.5rem);
 }
 
-.card-compact .card-title {
-  margin-bottom: 0.25rem;
-}
-
-.card-normal .card-title {
-  margin-bottom: 0.75rem;
-}
-
 .ml-5 {
   margin-left: 1.25rem;
 }
@@ -2505,10 +2488,6 @@ body[dir="rtl"] .checkbox:checked,
   height: 16rem;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
 .w-screen {
   width: 100vw;
 }
@@ -2523,18 +2502,6 @@ body[dir="rtl"] .checkbox:checked,
 
 .w-80 {
   width: 20rem;
-}
-
-.w-12 {
-  width: 3rem;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
-.w-8 {
-  width: 2rem;
 }
 
 .grid-flow-col {
@@ -2594,6 +2561,10 @@ body[dir="rtl"] .checkbox:checked,
   border-radius: 0.5rem;
 }
 
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
 .bg-gray-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
@@ -2640,6 +2611,14 @@ body[dir="rtl"] .checkbox:checked,
 
 .pt-24 {
   padding-top: 6rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .text-center {
@@ -2737,6 +2716,14 @@ body[dir="rtl"] .checkbox:checked,
 }
 
 @media (min-width: 640px) {
+  .sm\:w-96 {
+    width: 24rem;
+  }
+
+  .sm\:w-80 {
+    width: 20rem;
+  }
+
   .sm\:justify-end {
     justify-content: flex-end;
   }
@@ -2755,19 +2742,59 @@ body[dir="rtl"] .checkbox:checked,
   .md\:mr-28 {
     margin-right: 7rem;
   }
-}
 
-@media (min-width: 1024px) {
-  .lg\:mr-28 {
-    margin-right: 7rem;
+  .md\:mr-80 {
+    margin-right: 20rem;
   }
 
-  .lg\:flex-row {
+  .md\:mr-40 {
+    margin-right: 10rem;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:w-80 {
+    width: 20rem;
+  }
+
+  .md\:w-96 {
+    width: 24rem;
+  }
+
+  .md\:w-screen {
+    width: 100vw;
+  }
+
+  .md\:w-0 {
+    width: 0px;
+  }
+
+  .md\:flex-row {
     flex-direction: row;
   }
 
-  .lg\:pt-0 {
+  .md\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
+  }
+
+  .md\:pt-0 {
     padding-top: 0px;
+  }
+
+  .md\:text-start {
+    text-align: start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex-row {
+    flex-direction: row;
   }
 
   .lg\:text-start {
@@ -2788,48 +2815,13 @@ body[dir="rtl"] .checkbox:checked,
     padding-top: 0px;
   }
 
-  .\32xl\:text-\[1\.5rem\] {
-    font-size: 1.5rem;
-  }
-
   .\32xl\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
   }
-
-  .\32xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-}
-
-@media (min-width: 2000px) {
-  .\33xl\:text-\[2\.5rem\] {
-    font-size: 2.5rem;
-  }
-
-  .\33xl\:text-\[1\.5rem\] {
-    font-size: 1.5rem;
-  }
-
-  .\33xl\:text-\[2rem\] {
-    font-size: 2rem;
-  }
 }
 
 @media (min-width: 2560px) {
-  .\34xl\:ml-\[40rem\] {
-    margin-left: 40rem;
-  }
-
-  .\34xl\:mr-\[40rem\] {
-    margin-right: 40rem;
-  }
-
-  .\34xl\:ml-\[35rem\] {
-    margin-left: 35rem;
-  }
-
   .\34xl\:ml-\[25rem\] {
     margin-left: 25rem;
   }
@@ -2846,10 +2838,6 @@ body[dir="rtl"] .checkbox:checked,
     display: none;
   }
 
-  .\34xl\:h-\[36rem\] {
-    height: 36rem;
-  }
-
   .\34xl\:h-\[26rem\] {
     height: 26rem;
   }
@@ -2858,55 +2846,16 @@ body[dir="rtl"] .checkbox:checked,
     height: 2rem;
   }
 
-  .\34xl\:w-\[44rem\] {
-    width: 44rem;
+  .\34xl\:w-\[34rem\] {
+    width: 34rem;
   }
 
   .\34xl\:w-\[35rem\] {
     width: 35rem;
   }
 
-  .\34xl\:w-\[34rem\] {
-    width: 34rem;
-  }
-
   .\34xl\:w-8 {
     width: 2rem;
-  }
-
-  .\34xl\:text-\[3\.5rem\] {
-    font-size: 3.5rem;
-  }
-
-  .\34xl\:text-\[2rem\] {
-    font-size: 2rem;
-  }
-
-  .\34xl\:text-\[2\.5rem\] {
-    font-size: 2.5rem;
-  }
-
-  .\34xl\:text-\[1\.5rem\] {
-    font-size: 1.5rem;
-  }
-
-  .\34xl\:text-\[1\.7rem\] {
-    font-size: 1.7rem;
-  }
-
-  .\34xl\:text-9xl {
-    font-size: 8rem;
-    line-height: 1;
-  }
-
-  .\34xl\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .\34xl\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
   }
 
   .\34xl\:text-6xl {
@@ -2914,24 +2863,22 @@ body[dir="rtl"] .checkbox:checked,
     line-height: 1;
   }
 
-  .\34xl\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+  .\34xl\:text-\[2\.5rem\] {
+    font-size: 2.5rem;
   }
 
-  .\34xl\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .\34xl\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+  .\34xl\:text-\[1\.7rem\] {
+    font-size: 1.7rem;
   }
 
   .\34xl\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .\34xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .\34xl\:leading-normal {
