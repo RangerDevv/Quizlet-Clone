@@ -1,15 +1,20 @@
 {
-  "name": "doki",
+  "name": "tau",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cypress": "cypress open"
   },
   "dependencies": {
+ bootstrap
+    "firebase": "^9.10.0",
+
     "daisyui": "^2.31.0",
+ main
     "next": "12.3.1",
     "react": "18.2.0",
     "react-daisyui": "^2.4.2",
@@ -19,7 +24,11 @@
     "@types/node": "18.7.21",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
+ bootstrap
+    "cypress": "^10.9.0",
+
     "autoprefixer": "^10.4.12",
+ main
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
     "postcss": "^8.4.16",
